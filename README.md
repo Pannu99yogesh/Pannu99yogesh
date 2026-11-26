@@ -129,15 +129,24 @@ A voice-driven desktop assistant that routes spoken commands to different tools.
 
 <img width="95%" src="https://streak-stats.demolab.com?user=Pannu99yogesh&hide_border=true&background=0D1117&ring=5EEAD4&fire=818CF8&currStreakLabel=5EEAD4&sideLabels=C9D1D9&dates=8B949E" alt="GitHub contribution streak">
 
-### 🐍 Contribution snake
+### 👾 Pac-Man contribution animation
 
 <div align="center">
 
-<img alt="Animated snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Pannu99yogesh/Pannu99yogesh/output/github-contribution-grid-snake-dark.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pannu99yogesh/Pannu99yogesh/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pannu99yogesh/Pannu99yogesh/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man animation moving across my GitHub contribution graph" src="https://raw.githubusercontent.com/Pannu99yogesh/Pannu99yogesh/output/pacman-contribution-graph.svg" width="100%">
+</picture>
 
+### 🐍 Snake mode
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pannu99yogesh/Pannu99yogesh/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pannu99yogesh/Pannu99yogesh/output/github-contribution-grid-snake.svg">
+  <img alt="Animated snake following my GitHub contribution graph" src="https://raw.githubusercontent.com/Pannu99yogesh/Pannu99yogesh/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
 </div>
-
-
 
 </div>
 
