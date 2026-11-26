@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Yogesh Pannu, Generative AI Developer">
+<style>
+.e{stroke:#818cf8;stroke-width:1.2;opacity:.45;stroke-dasharray:6 8;animation:flow 3s linear infinite}
+.n{fill:#0f172a;stroke:#5eead4;stroke-width:2.5;animation:pulse 2.4s ease-in-out infinite}
+.t{width:0;animation-name:type;animation-duration:12s;animation-iteration-count:infinite;animation-fill-mode:both}
+.f{animation:rise .9s ease-out both}
+.dot{animation:pulse 1.6s ease-in-out infinite}
+@keyframes flow{to{stroke-dashoffset:-42}}
+@keyframes pulse{50%{fill:#5eead4;opacity:.55}}
+@keyframes type{0%{width:0}13%,29%{width:var(--w)}33.2%,100%{width:0}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}#c0 rect{width:440px}}
+</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"><animate attributeName="stop-color" values="#312e81;#134e4a;#4c1d95;#312e81" dur="12s" repeatCount="indefinite"/></stop></linearGradient></defs>
+<rect width="900" height="300" rx="18" fill="url(#bg)"/>
+<line x1="660" y1="80" x2="750" y2="55" class="e" style="animation-delay:-0.00s"/><line x1="660" y1="80" x2="750" y2="118" class="e" style="animation-delay:-0.37s"/><line x1="660" y1="80" x2="750" y2="182" class="e" style="animation-delay:-0.74s"/><line x1="660" y1="80" x2="750" y2="245" class="e" style="animation-delay:-1.11s"/><line x1="660" y1="150" x2="750" y2="55" class="e" style="animation-delay:-1.48s"/><line x1="660" y1="150" x2="750" y2="118" class="e" style="animation-delay:-1.85s"/><line x1="660" y1="150" x2="750" y2="182" class="e" style="animation-delay:-2.22s"/><line x1="660" y1="150" x2="750" y2="245" class="e" style="animation-delay:-2.59s"/><line x1="660" y1="220" x2="750" y2="55" class="e" style="animation-delay:-2.96s"/><line x1="660" y1="220" x2="750" y2="118" class="e" style="animation-delay:-0.33s"/><line x1="660" y1="220" x2="750" y2="182" class="e" style="animation-delay:-0.70s"/><line x1="660" y1="220" x2="750" y2="245" class="e" style="animation-delay:-1.07s"/><line x1="750" y1="55" x2="840" y2="115" class="e" style="animation-delay:-1.44s"/><line x1="750" y1="55" x2="840" y2="185" class="e" style="animation-delay:-1.81s"/><line x1="750" y1="118" x2="840" y2="115" class="e" style="animation-delay:-2.18s"/><line x1="750" y1="118" x2="840" y2="185" class="e" style="animation-delay:-2.55s"/><line x1="750" y1="182" x2="840" y2="115" class="e" style="animation-delay:-2.92s"/><line x1="750" y1="182" x2="840" y2="185" class="e" style="animation-delay:-0.29s"/><line x1="750" y1="245" x2="840" y2="115" class="e" style="animation-delay:-0.66s"/><line x1="750" y1="245" x2="840" y2="185" class="e" style="animation-delay:-1.03s"/><circle cx="660" cy="80" r="9" class="n" style="animation-delay:0.00s"/><circle cx="660" cy="150" r="9" class="n" style="animation-delay:0.15s"/><circle cx="660" cy="220" r="9" class="n" style="animation-delay:0.30s"/><circle cx="750" cy="55" r="9" class="n" style="animation-delay:0.50s"/><circle cx="750" cy="118" r="9" class="n" style="animation-delay:0.65s"/><circle cx="750" cy="182" r="9" class="n" style="animation-delay:0.80s"/><circle cx="750" cy="245" r="9" class="n" style="animation-delay:0.95s"/><circle cx="840" cy="115" r="9" class="n" style="animation-delay:1.00s"/><circle cx="840" cy="185" r="9" class="n" style="animation-delay:1.15s"/>
+<g class="f"><text x="48" y="70" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" fill="#a5b4fc">Hi, I'm</text>
+<text x="46" y="118" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="48" font-weight="700" fill="#ffffff">Yogesh Pannu</text></g>
+<clipPath id="c0"><rect x="48" y="150" height="34" width="440" class="t" style="--w:440px;animation-delay:0s;animation-timing-function:steps(40,end)"/></clipPath>
+<text x="48" y="174" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="18" fill="#5eead4" textLength="440" lengthAdjust="spacingAndGlyphs" clip-path="url(#c0)">Building multi-agent apps with LangGraph</text><clipPath id="c1"><rect x="48" y="150" height="34" width="0" class="t" style="--w:330px;animation-delay:4s;animation-timing-function:steps(30,end)"/></clipPath>
+<text x="48" y="174" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="18" fill="#5eead4" textLength="330" lengthAdjust="spacingAndGlyphs" clip-path="url(#c1)">Asking PDFs questions with RAG</text><clipPath id="c2"><rect x="48" y="150" height="34" width="0" class="t" style="--w:341px;animation-delay:8s;animation-timing-function:steps(31,end)"/></clipPath>
+<text x="48" y="174" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="18" fill="#5eead4" textLength="341" lengthAdjust="spacingAndGlyphs" clip-path="url(#c2)">Cleaning messy data with Python</text>
+<g class="f" style="animation-delay:.4s"><text x="48" y="218" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#cbd5e1">Generative AI Developer · B.Tech in AI, 2023–2027</text>
+<rect x="48" y="238" width="318" height="32" rx="16" fill="#ffffff" opacity=".1"/>
+<circle cx="68" cy="254" r="5" fill="#4ade80" class="dot"/>
+<text x="82" y="259" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#ffffff">Open to internships and entry-level roles</text></g>
+</svg>
