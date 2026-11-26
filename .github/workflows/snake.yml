@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate contribution animations
 
 on:
   schedule:
@@ -12,7 +12,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake animation
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: Pannu99yogesh
@@ -20,7 +20,15 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Publish animation to output branch
+      - name: Generate Pac-Man contribution animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Pannu99yogesh
+          outputs: |
+            dist/pacman-contribution-graph.svg
+            dist/pacman-contribution-graph-dark.svg?palette=github-dark
+
+      - name: Publish animations to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
