@@ -24,9 +24,6 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: Pannu99yogesh
-          outputs: |
-            dist/pacman-contribution-graph.svg
-            dist/pacman-contribution-graph-dark.svg?palette=github-dark
 
       - name: Publish animations to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
