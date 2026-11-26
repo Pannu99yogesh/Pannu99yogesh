@@ -12,6 +12,15 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # Generate Pac-Man first: this action writes to dist/ on the runner.
+      - name: Generate Pac-Man contribution animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Pannu99yogesh
+          games: pacman
+
+      # Generate Snake after Pac-Man so its Docker container cannot leave
+      # the dist/ directory with permissions that block the Pac-Man action.
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
@@ -19,11 +28,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Generate Pac-Man contribution animation
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: Pannu99yogesh
 
       - name: Publish animations to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
